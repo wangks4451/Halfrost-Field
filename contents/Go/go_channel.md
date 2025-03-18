@@ -27,7 +27,7 @@ monitor 可以帮助防止数据被破坏和线程死锁。在 CSP 论文中为�
 
 ![](https://img.halfrost.com/Blog/ArticleImage/149_3.png)
 
-上图是从 CSP 文章中截图的一些例子，Hoare 简单的举了下面这个例子：
+上图是从 CSP 文章中截图的一些例子，Hoare 简单的举了下面这个例子：wks
 
 ```go
 [c:character; west?c ~ east!c] 
